@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .swiper-pagination-bullet {
+        background-color: gray !important;  /* Tailwind gray-400 equivalent */
+        width: 1rem !important;                /* w-4 in Tailwind */
+        height: 1rem !important;               /* h-4 in Tailwind */
+        border-radius: 9999px !important;       /* rounded-full in Tailwind */
+      }
+      
+      .swiper-pagination-bullet-active {
+         border: 2px solid rgb(123, 229, 123);
+         background-color: transparent !important;
+      }
+      .flip{
+          @apply w-full h-full absolute backface-visibility;
+      }
+}
