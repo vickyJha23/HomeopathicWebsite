@@ -25,6 +25,7 @@ const Hero = () => {
         delay: 1000,
         disableOnInteraction: false, // Ensures autoplay resumes after interaction
     }}
+    loop={true}
     className="h-full"
 >
     <SwiperSlide>

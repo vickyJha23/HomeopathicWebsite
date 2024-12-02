@@ -55,14 +55,8 @@ const Navbar = () => {
    }, [])
 
   return (
-      <div id='home' className='absolute top-0 left-0 z-10 w-full'>
+      <div id='home' className='absolute top-0 left-0 z-40 w-full'>
        <div className='flex flex-col lg:flex-row justify-between items-center px-[2rem]'>
-        <div className='hidden lg:flex items-center justify-center'>
-             <button className='text-[1.5rem] text-white py-[0.15rem] px-[0.5rem]'>
-             <IoSearchOutline />
-             </button>
-             <input className='w-[120px] font-greatVibes tracking-wide placeholder:text-white py-[0.15rem] placeholder:tracking-wide px-[0.5rem] border-none outline-none bg-transparent text-white text-[1.5rem]' placeholder='Search' type="text" />
-        </div>
         <div className='block'>
             <Logo />
         </div>
@@ -84,11 +78,10 @@ const Navbar = () => {
            </button>
         </div>
          </div>
-         <div ref={navRef} className={`hidden lg:flex justify-center items-center mt-[1.5rem] ${isFixed ? "fixed top-0 left-0 w-full bg-[#3E484D] !mt-0 py-[0.5rem]": ""}`}>
+         <div ref={navRef} className={`hidden lg:flex justify-center items-center mt-[1.5rem] ${isFixed ? "fixed z-50 top-0 left-0 w-full bg-[#3E484D] !mt-0 py-[0.5rem]": ""}`}>
             <NavLinks isActive={true} />
        </div>
         <HamburgerMenu isVisible={isHamburgerMenuVisible} setIsVisible={() => setIsHamburgerMenuVisible(false)} /> 
-
       </div>
   )
 }

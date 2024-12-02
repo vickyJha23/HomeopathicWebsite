@@ -8,7 +8,7 @@ const HamburgerMenu = ({isVisible, setIsVisible}) => {
       if(!isVisible){
          return null;
       }
-  return ( <div className='h-screen w-full fixed top-0 left-0 bg-[#1E1D23]'>
+  return ( <div className='h-screen w-full fixed top-0 left-0 bg-[#1E1D23] z-30'>
               <button onClick={setIsVisible} className='text-white absolute top-6 right-6'>
                    <FaTimes size={28} />     
               </button>

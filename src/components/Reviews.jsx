@@ -26,16 +26,17 @@ const Reviews = () => {
                         spaceBetween={25}
                         slidesPerView={3}
                         allowTouchMove={false}
-                        modules={[Pagination, EffectCards]}
+                        modules={[Pagination, Autoplay, EffectCards]}
                         pagination={
                             {
                                 clickable: true,
                                 dynamicBullets: true,
                             }
                         }
-                        // autoplay={{
-                        //     delay: 1000,
-                        // }}
+                        autoplay={{
+                            delay: 1000,
+                        }}
+                        loop={true}
                         breakpoints={{
                             "0": {
                                 slidesPerView: 1,

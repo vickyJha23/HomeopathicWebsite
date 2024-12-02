@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from './Logo';
 
 // static data import
 import imageCollection from '../assets/images/images';
@@ -11,7 +12,7 @@ const Footer = () => {
         <div className="border-dashed border-b-[2px] border-[#6D7278] pb-[5rem]">
             <div className='grid lg:!grid-cols-[auto,auto]'>
                  <div>
-                     <img src={imageCollection.logoImg} alt="()" className='w-[150px] h-[150px] object-cover' />
+                     <Logo />
                      <p className='font-Mukta text-[#6D7278] text-[0.95rem] w-[60%] mt-[1.5rem]'>
                      Our Doctors collaborate with our Naturopath to deliver the best of natural and conventional medicine, lifestyle, and nutritional advice.
                      </p>
@@ -27,8 +28,8 @@ const Footer = () => {
                              <p className='text-xs text-[#6D7278]' >Mob: +91 95985-85796</p>   
                          </div>
                          <div className='flex flex-col gap-2'>
-                             <p className='text-[#A25F51] font-semibold'>Dr.S.P.Baranwal</p>
-                             <p className='text-xs text-[#6D7278]'>Senior Consultant | Retired Medical Officer UP Govt (Reg.No 199084)</p>
+                             <p className='text-[#A25F51] font-semibold'>Dr.S.P.Baranwal (BHMS)</p>
+                             <p className='text-xs text-[#6D7278]'>Senior Consultant | Retired Medical Officer UP Govt </p>
                              <p className='text-xs text-[#6D7278]'>Mob: +91 99846-46466</p>   
                          </div>
                      </div>

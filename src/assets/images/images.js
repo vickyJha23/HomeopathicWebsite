@@ -1,4 +1,6 @@
-import logoImg from "../logoUma.png"
+import logoImg from "../logoUma.svg";
+import sun from "../sun.png";
+import leaf from "../leaf.png"
 import hero from "../hero.png"
 import hero1 from "../hero1.png"
 import hero2 from "../hero2.png"
@@ -25,6 +27,16 @@ import men2 from "../Men2Portrait.avif";
 import men3 from "../Men3Portrait.avif";
 import men4 from "../Men4Portrait.avif";
 import men5 from "../Men5Portrait.avif";
+import cancerPatientImage from "../cancerTreatingPatient.avif";
+import cardiologist from "../cardiologist.avif";
+import rheumatic from "../Rheumatic.webp";
+import oncology from "../oncology.png";
+import heart from "../heart.png";
+import pain from "../pain.png";
+import addiction from "../addiction.png";
+import generalHealth from "../health.png";
+import stomach from "../stomach.png";
+console.log(oncology);
 
 
 
@@ -58,7 +70,18 @@ const imageCollection = {
     men2,
     men3,
     men4,
-    men5
+    men5,
+    leaf,
+    sun,
+    cancerPatientImage,
+    cardiologist,
+    rheumatic,
+    oncology,
+    heart,
+    pain,
+    addiction,
+    generalHealth,
+    stomach
 }
 
 export default imageCollection;

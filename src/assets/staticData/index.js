@@ -1,7 +1,7 @@
-import { FaChevronDown, FaChevronUp, FaStethoscope, FaBrain, FaVenus  } from "react-icons/fa";
-import { IoIosFlower } from "react-icons/io";
-import { FaRegFaceGrinStars } from "react-icons/fa6";
-import { GiChemicalTank } from "react-icons/gi"
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+// import { IoIosFlower } from "react-icons/io";
+// import { FaRegFaceGrinStars } from "react-icons/fa6";
+// import { GiChemicalTank } from "react-icons/gi"
 import imageCollection from "../images/images";
 export const categories = [
   "Show All",
@@ -15,32 +15,32 @@ export const items = [
   {
     id: 1,
     category: "Chronic Care Management",
-    title: "Homeopathic medicine",
-    image: imageCollection.homeopathic,
+    title: "Rheumatic Care Solutions",
+    image: imageCollection.rheumatic,
     downIcon: FaChevronDown,
     upIcon: FaChevronUp,
     description:
-      "The most natural way to peel the old skin and let a young new skin grow",
+    "Our rheumatic care solutions focus on providing effective relief and long-term management for conditions like arthritis and other joint disorders, using natural treatments that support the body’s healing process and enhance mobility.",
   },
   {
     id: 2,
     category: "Chronic Care Management",
-    title: "Microdermabrasion",
-    image: imageCollection.microderbrasion,
+    title: "Cancer Care Solutions",
+    image: imageCollection.cancerPatientImage,
     downIcon: FaChevronDown,
     upIcon: FaChevronUp,
     description:
-      "The most natural way to peel the old skin and let a young new skin grow",
+      "Our holistic cancer care focuses on providing comprehensive support, combining advanced treatments with natural therapies to promote healing and improve the quality of life for patients.",
   },
   {
     id: 3,
     category: "Chronic Care Management",
-    title: "Mesotherapy",
-    image: imageCollection.mesotherapy,
+    title: "Heart care Solutions",
+    image: imageCollection.cardiologist,
     downIcon: FaChevronDown,
     upIcon: FaChevronUp,
     description:
-      "The most natural way to peel the old skin and let a young new skin grow",
+      "Our heart care solutions focus on preventing, managing, and treating heart conditions through a combination of natural therapies and lifestyle interventions, ensuring a healthier and more fulfilling life.",
   },
   {
     id: 4,
@@ -144,7 +144,7 @@ export const treatmentData = [
   {
     id: 2,
     title: "Hypnotherapy",
-    description: "The real taste of hypnotherapy performed by Dr. Walker",
+    description: "The real taste of hypnotherapy performed by Dr. S.P.Baranwal",
   },
   {
     id: 3,
@@ -155,7 +155,7 @@ export const treatmentData = [
     id: 4,
     title: "Reiki",
     description: "Open your chakras and talk to universe",
-  },
+  }
 ];
 
 export const patients = [
@@ -218,34 +218,34 @@ export const patients = [
 ];
 
 export const diseases = [
-   {
+  {
     id: 1,
-    Icon : FaStethoscope,
-    name: "Internal Medicine",
-   },
-   {
+    Icon: imageCollection.stomach,
+    name: "Internal Medicine Diseases",
+  },
+  {
     id: 2,
-    Icon : FaBrain,
-    name: "Neurological Diseases",
-   },
-   {
+    Icon: imageCollection.oncology,
+    name: "Cancer Diseases",
+  },
+  {
     id: 3,
-    Icon: FaVenus,
-    name: "Gynecological conditions",
-   },
-   {
+    Icon: imageCollection.pain,
+    name: "Rheumatic Diseases",
+  },
+  {
     id: 4,
-    Icon: IoIosFlower,
-    name: "Addictions",
-   },
-   {
+    Icon: imageCollection.addiction,
+    name: "Addiction Disorders",
+  },
+  {
     id: 5,
-    Icon: GiChemicalTank,
-    name: "Endocrine System Disorders",
-   },
-   {
+    Icon: imageCollection.generalHealth,
+    name: "General Health Conditions",
+  },
+  {
     id: 6,
-    Icon: FaRegFaceGrinStars,
-    name: "Dermatology",
-   }
+    Icon: imageCollection.heart,
+    name: "Heart Diseases",
+  }
 ]
