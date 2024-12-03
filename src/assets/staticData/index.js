@@ -7,7 +7,6 @@ export const categories = [
   "Show All",
   "Chronic Care Management",
   "Digestive Health",
-  "Mood Balance",
   "Immunization",
 ];
 
@@ -45,12 +44,12 @@ export const items = [
   {
     id: 4,
     category: "Digestive Health",
-    title: "Diet and Excercise",
+    title: "Diet and Exercise",
     image: imageCollection.diet,
     downIcon: FaChevronDown,
     upIcon: FaChevronUp,
     description:
-      "The most natural way to peel the old skin and let a young new skin grow",
+      "A comprehensive guide to nourishing your body with the right foods and staying active to promote optimal digestive health and overall wellness.",
   },
   {
     id: 5,
@@ -60,102 +59,55 @@ export const items = [
     downIcon: FaChevronDown,
     upIcon: FaChevronUp,
     description:
-      "The most natural way to peel the old skin and let a young new skin grow",
+      "A program designed to support recovery from injuries through personalized diet and gentle exercises, ensuring a smooth path to regaining strength and mobility.",
   },
   {
     id: 6,
-    category: "Digestive Health",
-    title: "Aquatic Therapy",
-    image: imageCollection.aquatic,
-    downIcon: FaChevronDown,
-    upIcon: FaChevronUp,
-    description:
-      "The most natural way to peel the old skin and let a young new skin grow",
-  },
-  {
-    id: 7,
-    category: "Mood Balance",
-    title: "Clinical Hypnotherapy",
-    image: imageCollection.clinical,
-    downIcon: FaChevronDown,
-    upIcon: FaChevronUp,
-    description:
-      "The most natural way to peel the old skin and let a young new skin grow",
-  },
-  {
-    id: 8,
-    category: "Mood Balance",
-    title: "Massage Therapy",
-    image: imageCollection.massage,
-    downIcon: FaChevronDown,
-    upIcon: FaChevronUp,
-    description:
-      "The most natural way to peel the old skin and let a young new skin grow",
-  },
-  {
-    id: 9,
-    category: "Mood Balance",
-    title: "Reiki Treatment",
-    image: imageCollection.reiki,
-    downIcon: FaChevronDown,
-    upIcon: FaChevronUp,
-    description:
-      "The most natural way to peel the old skin and let a young new skin grow",
-  },
-  {
-    id: 10,
-    category: "Immunization",
-    title: "Acupuncture",
-    image: imageCollection.acupuncture,
-    downIcon: FaChevronDown,
-    upIcon: FaChevronUp,
-    description:
-      "The most natural way to peel the old skin and let a young new skin grow",
-  },
-  {
-    id: 11,
-    category: "Immunization",
-    title: "Cupping Therapy",
-    image: imageCollection.cupping,
-    downIcon: FaChevronDown,
-    upIcon: FaChevronUp,
-    description:
-      "The most natural way to peel the old skin and let a young new skin grow",
-  },
-  {
-    id: 12,
     category: "Immunization",
     title: "21 Day Metabolic Cleanse",
     image: imageCollection.days,
     downIcon: FaChevronDown,
     upIcon: FaChevronUp,
     description:
-      "The most natural way to peel the old skin and let a young new skin grow",
+      "A transformative journey to reset your metabolism, detoxify your body, and boost your immune system over the course of 21 days.",
+  },
+  {
+    id: 7,
+    category: "Immunization",
+    title: "Homeopathic Immune Boost",
+    image: imageCollection.homeo,
+    downIcon: FaChevronDown,
+    upIcon: FaChevronUp,
+    description:
+      "A gentle and natural approach to strengthening your immune system using personalized homeopathic remedies to protect against seasonal illnesses and chronic conditions.",
   },
 ];
 
 export const treatmentData = [
   {
     id: 1,
-    title: "Acupuncture",
+    title: "Homeopathy",
     description:
-      "Using acupuncture we balance your energy letting your body to treat itself",
+      "100% natural and organic remedies tailored to enhance immunity and treat a range of conditions.",
   },
   {
     id: 2,
-    title: "Hypnotherapy",
-    description: "The real taste of hypnotherapy performed by Dr. S.P.Baranwal",
+    title: "Cancer Support Therapy",
+    description:
+      "Holistic treatments and complementary therapies aimed at enhancing quality of life during cancer recovery.",
   },
   {
     id: 3,
-    title: "Homeopathy",
-    description: "100% Natural and 100% Organic Medicine",
+    title: "Rheumatic Care",
+    description:
+      "Specialized therapies to alleviate joint pain, reduce inflammation, and improve mobility for rheumatic conditions.",
   },
   {
     id: 4,
-    title: "Reiki",
-    description: "Open your chakras and talk to universe",
-  }
+    title: "Heart Care",
+    description:
+      "Focused treatments to support cardiovascular health, manage stress, and promote a healthy heart.",
+  },
 ];
 
 export const patients = [

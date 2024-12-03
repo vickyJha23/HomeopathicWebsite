@@ -19,7 +19,7 @@ const Card = ({ item }) => {
                     <div className='text-center text-white h-full flex flex-col justify-center mt-[1rem] gap-2 items-center'>
                         <h2 className='font-bold text-xl font-Roboto-slab capitalize'>{item.title}</h2>
                         <p className='font-light text-[0.85rem] w-[80%] font-Mukta'>{item.description}</p>
-                        <button className='mt-[2rem]'>
+                        <button className='mt-0'>
                             <UpIcon />
                         </button>
                     </div>

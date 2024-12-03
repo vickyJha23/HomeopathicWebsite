@@ -70,7 +70,7 @@ const Services = () => {
              
              {/* Show More button */}
              {
-               categoryItems.length > 6 && (
+               categoryItems.length >=6 && (
                   <div className='flex justify-center mt-[2rem]'>
                   <Button 
                     buttonText={`${showMore ? "Show Less": "Show More"}`} 

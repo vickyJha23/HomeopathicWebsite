@@ -23,13 +23,18 @@ const Footer = () => {
                      </h1>
                      <div className='grid gap-4 lg:grid-cols-2'>
                          <div className='flex flex-col gap-2'>
-                             <p className='text-[#A25F51] font-semibold'>Dr Nandini R.Baranwal(Gupta)</p>
+                             <p className='text-[#A25F51] font-semibold'>Dr. Nandini R.Baranwal(Gupta)</p>
                              <p className='text-xs text-[#6D7278]'>General Physician, (Reg.No 199084)</p>
                              <p className='text-xs text-[#6D7278]' >Mob: +91 95985-85796</p>   
                          </div>
                          <div className='flex flex-col gap-2'>
-                             <p className='text-[#A25F51] font-semibold'>Dr.S.P.Baranwal (BHMS)</p>
+                             <p className='text-[#A25F51] font-semibold'>Dr. S.P.Baranwal (BHMS)</p>
                              <p className='text-xs text-[#6D7278]'>Senior Consultant | Retired Medical Officer UP Govt </p>
+                             <p className='text-xs text-[#6D7278]'>Mob: +91 99846-46466</p>   
+                         </div>
+                         <div className='flex flex-col gap-2'>
+                             <p className='text-[#A25F51] font-semibold'>Dr. Vinayak.Baranwal (BHMS)</p>
+                             <p className='text-xs text-[#6D7278]'>General Physician </p>
                              <p className='text-xs text-[#6D7278]'>Mob: +91 99846-46466</p>   
                          </div>
                      </div>

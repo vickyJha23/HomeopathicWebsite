@@ -36,6 +36,7 @@ import pain from "../pain.png";
 import addiction from "../addiction.png";
 import generalHealth from "../health.png";
 import stomach from "../stomach.png";
+import homeo from "../homeo.png";
 console.log(oncology);
 
 
@@ -81,7 +82,8 @@ const imageCollection = {
     pain,
     addiction,
     generalHealth,
-    stomach
+    stomach,
+    homeo
 }
 
 export default imageCollection;

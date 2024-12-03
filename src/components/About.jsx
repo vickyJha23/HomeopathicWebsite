@@ -42,10 +42,10 @@ const About = () => {
                 <div className='text-center'>
                     <p className='text-[#87A843] font-Caveat text-[2rem]'>About us</p>
                     <h1 className=' text-3xl lg:text-5xl font-Roboto-slab font-semibold text-[#3E474C] mt-[1rem] tracking-wide transition-all duration-200 ease-linear'>
-                        We Teach Your Body To Treat Itself
+                        We Teach Your Body To Recover Itself
                     </h1>
                     <p className='text-sm lg:text-[1rem] text-center w-[65%] mx-auto mt-[3rem] text-[#878A8C] font-Mukta transition-all duration-200 ease-linear'>
-                        Our goal is to treat patients using old traditional techniques of Acupuncture along with homeopathic drugs prepared from all natural ingredients.
+                        Our goal is to treat patients using old traditional techniques along with homeopathic drugs prepared from all natural ingredients.
                     </p>
                 </div>
                 <div ref={progressBarParentRef}  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mt-[3rem] transition-all duration-200 ease-linear'>

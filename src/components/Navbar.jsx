@@ -56,7 +56,7 @@ const Navbar = () => {
 
   return (
       <div id='home' className='absolute top-0 left-0 z-40 w-full'>
-       <div className='flex flex-col lg:flex-row justify-between items-center px-[2rem]'>
+       <div className='flex flex-row justify-between items-center px-[1rem] lg:px-[2rem]'>
         <div className='block'>
             <Logo />
         </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
            <button className='text-white text-xl' onClick={() => {
                setIsHamburgerMenuVisible(true);
            }}>
-               <GiHamburgerMenu />
+               <GiHamburgerMenu size={28} />
            </button>
         </div>
          </div>
