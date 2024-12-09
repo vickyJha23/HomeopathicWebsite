@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { FiPhoneCall } from "react-icons/fi";
-import { IoSearchOutline } from "react-icons/io5";
-import imageCollection from '../assets/images/images';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 // component imports
@@ -39,6 +37,7 @@ const Navbar = () => {
                 }
                 const id = e.target.textContent.toLowerCase();
                 const element = document.getElementById(id);
+                console.log(element);
                 if(!element){
                     console.log(`No element found with this ${id}`);
                     return;
@@ -79,7 +78,7 @@ const Navbar = () => {
         </div>
          </div>
          <div ref={navRef} className={`hidden lg:flex justify-center items-center mt-[1.5rem] ${isFixed ? "fixed z-50 top-0 left-0 w-full bg-[#3E484D] !mt-0 py-[0.5rem]": ""}`}>
-            <NavLinks isActive={true} />
+            <NavLinks  size={"text-lg"}/>
        </div>
         <HamburgerMenu isVisible={isHamburgerMenuVisible} setIsVisible={() => setIsHamburgerMenuVisible(false)} /> 
       </div>

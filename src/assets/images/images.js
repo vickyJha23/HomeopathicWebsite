@@ -37,7 +37,8 @@ import addiction from "../addiction.png";
 import generalHealth from "../health.png";
 import stomach from "../stomach.png";
 import homeo from "../homeo.png";
-console.log(oncology);
+import logo from "../logo.png";
+
 
 
 
@@ -83,7 +84,8 @@ const imageCollection = {
     addiction,
     generalHealth,
     stomach,
-    homeo
+    homeo,
+    logo
 }
 
 export default imageCollection;

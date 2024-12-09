@@ -56,7 +56,9 @@ export default {
         ".active": {
             padding: "0.5rem 1.5rem",
             "border-radius": "40px 2px 40px 2px",
-            background: "#fff"
+            background: "#fff",
+            color: "black"
+
         }
        }
        addUtilities(newUtilities);

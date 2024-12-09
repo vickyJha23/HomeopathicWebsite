@@ -13,7 +13,6 @@ const Diseases = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-items-center w-[80%] mx-auto space-y-4 transition-all duration-200 ease-linear'>
                         {
                             diseases.map((disease, index) => {
-                                console.log(disease.Icon);
                                 return <div key={index} className='flex flex-col justify-center items-center gap-4 group cursor-pointer'>
                                       <div className='w-[100px] aspect-square flex justify-center items-center rounded-[50%] border-dashed border-[2px] border-[#ccc] group-hover:bg-white group-hover:border-none text-[#8E9192] transition-all duration-200 ease-linear'>
                                           {/* <Icon className='text-2xl group-hover:text-[#87A843] transition-all duration-200 ease-linear' /> */}

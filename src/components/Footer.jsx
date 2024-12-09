@@ -1,8 +1,9 @@
 import React from 'react'
-import Logo from './Logo';
 
+// component import
+import Logo from './Logo';
+import TopLink from './TopLink';
 // static data import
-import imageCollection from '../assets/images/images';
 
 
 const Footer = () => {
@@ -43,6 +44,7 @@ const Footer = () => {
             </div>  
         <p className='font-Mukta text-white mt-[1.5rem]'><span className='hover:text-[#87A843] capitalize transition-all duration-200 ease-linear'>Uma homeopathic clinic</span> <span className='text-[#6D7278]'> &copy; {new Date().getFullYear()}. All rights Reserved.</span></p>
         </div> 
+        <TopLink />
     </div>
   )
 }
