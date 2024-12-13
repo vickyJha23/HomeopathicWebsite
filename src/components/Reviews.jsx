@@ -26,6 +26,7 @@ const Reviews = () => {
                         spaceBetween={25}
                         slidesPerView={3}
                         allowTouchMove={false}
+                        speed={200}
                         modules={[Pagination, Autoplay, EffectCards]}
                         pagination={
                             {

@@ -22,4 +22,12 @@
       .flip{
           @apply w-full h-full absolute backface-visibility;
       }
+      .leaflet-control-attribution a {
+        pointer-events: none; /* Disable pointer events for links */
+        color: inherit; /* Optional: Match text color to make it look like plain text */
+        text-decoration: none; /* Remove underline to make it appear non-clickable */
+      }
+     .leaflet-top{
+         z-index: 500 !important;
+     }     
 }

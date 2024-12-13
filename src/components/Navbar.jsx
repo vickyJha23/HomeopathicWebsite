@@ -54,7 +54,7 @@ const Navbar = () => {
    }, [])
 
   return (
-      <div id='home' className='absolute top-0 left-0 z-40 w-full'>
+      <div id='home' className='absolute top-0 left-0 z-[999] w-full'>
        <div className='flex flex-row justify-between items-center px-[1rem] lg:px-[2rem]'>
         <div className='block'>
             <Logo />
@@ -77,7 +77,7 @@ const Navbar = () => {
            </button>
         </div>
          </div>
-         <div ref={navRef} className={`hidden lg:flex justify-center items-center mt-[1.5rem] ${isFixed ? "fixed z-50 top-0 left-0 w-full bg-[#3E484D] !mt-0 py-[0.5rem]": ""}`}>
+         <div ref={navRef} className={`hidden lg:flex justify-center items-center mt-[1.5rem] ${isFixed ? "fixed z-[9999] top-0 left-0 w-full bg-[#3E484D] !mt-0 py-[0.5rem]": ""}`}>
             <NavLinks  size={"text-lg"}/>
        </div>
         <HamburgerMenu isVisible={isHamburgerMenuVisible} setIsVisible={() => setIsHamburgerMenuVisible(false)} /> 

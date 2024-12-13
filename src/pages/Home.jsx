@@ -8,6 +8,8 @@ import About from '../components/About'
 import Reviews from '../components/Reviews'
 import Diseases from '../components/Diseases'
 import Footer from '../components/Footer'
+import Map from "../components/Map";
+
 
 
 const Home = () => {
@@ -19,6 +21,7 @@ const Home = () => {
          <About />
          <Reviews />
          <Diseases />
+         <Map />
          <Footer />
     </div>
   )

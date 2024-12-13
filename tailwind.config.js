@@ -8,6 +8,8 @@ export default {
   safelist: [
     'swiper-pagination-bullet',
     'swiper-pagination-bullet-active',
+    ".leaflet-control-attribution a",
+    ".leaflet-top"
 ],
   theme: {
     extend: {
