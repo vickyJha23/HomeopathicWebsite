@@ -8,6 +8,7 @@ export const categories = [
   "Chronic Care Management",
   "Digestive Health",
   "Immunization",
+  "Back Health"
 ];
 
 export const items = [
@@ -81,6 +82,27 @@ export const items = [
     description:
       "A gentle and natural approach to strengthening your immune system using personalized homeopathic remedies to protect against seasonal illnesses and chronic conditions.",
   },
+  {
+    id: 8,
+    category: "Back Health",
+    title: "Back Pain Relief",
+    image: imageCollection.backPain,
+    downIcon: FaChevronDown,
+    upIcon: FaChevronUp,
+    description:
+      "Discover effective back pain relief solutions tailored to support your spinal health. Our personalized remedies aim to reduce discomfort, improve mobility, and enhance overall wellness through natural and holistic approaches.",
+},
+  {
+    id: 9,
+    category: "Back Health",
+    title: "Lower back Pain Relief",
+    image: imageCollection.backPain2,
+    downIcon: FaChevronDown,
+    upIcon: FaChevronUp,
+    description:
+      "Find targeted solutions for lower back pain relief. Our natural remedies and therapies are designed to alleviate discomfort, improve posture, and restore flexibility, helping you maintain a healthy and active lifestyle.",
+},
+
 ];
 
 export const treatmentData = [

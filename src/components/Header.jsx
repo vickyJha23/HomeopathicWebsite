@@ -4,7 +4,7 @@ import Hero from './Hero';
 
 const Header = () => {
   return (
-    <div className='overflow-hidden w-full h-[50vh] lg:h-screen'>
+    <div className='overflow-hidden w-full h-[50vh] lg:h-screen bg-red-500'>
         <Navbar/>
         <Hero />
     </div>

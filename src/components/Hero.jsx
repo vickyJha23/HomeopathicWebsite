@@ -11,7 +11,7 @@ import 'swiper/css/effect-fade';
 
 const Hero = () => {
   return (
-    <div className='mt-[-80px] h-full'>
+    <div className='h-full'>
       <Swiper
     slidesPerView={1}
     allowTouchMove={false}
@@ -36,9 +36,8 @@ const Hero = () => {
                 className="w-full h-full object-cover block"
             />
             <Banner
-                title1="Alternative"
-                title2="Medicine"
-                description="Acupuncture and Herbal Medicine are a complete system of medicine and can be used to treat any and all ailments."
+                title1="Ancure"
+                description="The Art of Healing Science"
             />
         </div>
     </SwiperSlide>
@@ -50,9 +49,8 @@ const Hero = () => {
                 className="w-full h-full object-cover block"
             />
             <Banner
-                title1="Alternative"
-                title2="Medicine"
-                description="Acupuncture and Herbal Medicine are a complete system of medicine and can be used to treat any and all ailments."
+                title1="Ancure"
+                description="The Art of Healing Science"
             />
         </div>
     </SwiperSlide>
@@ -64,9 +62,8 @@ const Hero = () => {
                 className="w-full h-full object-cover block"
             />
             <Banner
-                title1="Alternative"
-                title2="Medicine"
-                description="Acupuncture and Herbal Medicine are a complete system of medicine and can be used to treat any and all ailments."
+                title1="Ancure"
+                description="The Art of Healing Science"
             />
         </div>
     </SwiperSlide>

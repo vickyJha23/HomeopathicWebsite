@@ -38,6 +38,8 @@ import generalHealth from "../health.png";
 import stomach from "../stomach.png";
 import homeo from "../homeo.png";
 import logo from "../logo.png";
+import backPain from "../backpain.webp";
+import backPain2 from "../backPain2.jpg";
 
 
 
@@ -46,7 +48,7 @@ import logo from "../logo.png";
 
 
 const imageCollection = {
-    logoImg:logoImg,
+    logoImg,
     hero,
     hero1,
     hero2,
@@ -85,7 +87,9 @@ const imageCollection = {
     generalHealth,
     stomach,
     homeo,
-    logo
+    logo,
+    backPain,
+    backPain2,
 }
 
 export default imageCollection;

@@ -39,7 +39,7 @@ const Services = () => {
    }, [category, filterCategory]);
 
   return (
-    <div id='services' className='w-[90vw] max-w-[1170px] mx-auto pb-[5rem] lg:py-[5rem]'>
+    <div id='services' className='w-[90vw] max-w-[1170px] mx-auto pb-[5rem] py-[5rem]'>
          <div className='text-center'>
              <h4 className='font-Caveat text-[#91B058] text-[1.5rem]  lg:text-[2rem] tracking-wide'>Services</h4>
              <h1 className='text-[26px] md:text-[28px] lg:text-6xl font-bold font-Times tracking-wide text-[#3E474C]'>Healthy Life</h1>
